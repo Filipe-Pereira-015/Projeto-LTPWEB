@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title> Formulário de Login e Registro com HTML5 e CCS3</title>
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+    <div class="conteiner" >
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+    
+    <div class="content" >
+        <!--FORMULÁRIO DE LOGIN-->
+    <div id="login">
+        <img src="./img/icon1.png" alt="Logo da Página">
+        <form method="post" action="">
+            <h1>LOGIN</h1>
+            <p>
+                <label for="nome_login"><strong>Seu e-mail</strong></label>
+                <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. meuemail@gmail.com" />
+            </p>
+
+            <p>
+                <label for="email_login">Senha</label>
+                <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. minhasenhadeacesso" />
+            </p>
+
+            <p>
+                <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                <label for="manterlogado">Manter-me logado</label>
+            </p>            
+
+            <p>
+                <input type="submit" value="Entrar" />
+            </p>
+
+            <p class="link">Ainda não tem conta?<a href="#paracadastro">Cadastre-se></a>
+            </p>
+        </form>
+    </div>
+
+        <!--FORMULÁRIO DE LOGIN-->
+        <div id="cadastro">
+            <img src="./img/icon1.png" alt="Logo da Página">
+            <form method="post" action="">
+                <h1>CADASTRO</h1>
+                <p>
+                    <label for="nome_cad">Seu nome</label>
+                    <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+                </p>
+
+                <p>
+                    <label for="email_cad">Seu E-mail</label>
+                    <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@prejecaoceilandia.com" />
+                </p>
+                
+                <p>
+                    <label for="senha_cad">Sua senha</label>
+                    <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234" />
+                </p>
+                
+                <p>
+                    <input type="submit" value="Cadastrar" />
+                </p>
+
+                <p class="link">Já tem conta?<a href="#paralogin">Ir para login</a>  
+                </p>
+            </form>
+        </div>    
+    </div>
+</div>
+</body>
+</html>

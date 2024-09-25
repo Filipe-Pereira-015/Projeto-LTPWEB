@@ -1,48 +1,48 @@
-<%-- 
-    Document   : errodeusuario
-    Created on : 08/03/2024, 10:37:11
-    Author     : laboratorio
---%>
-
 <%@page isErrorPage="true"%>
-<%@page import="java.util.Enumeration"%>
+<%@page import="java.util.Enumeration" %>
 <%@page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 TRASITIONAL//EN"" HTTP://WWW.W3.ORG/TR/HTML4/LOOSE.DTD">
+<html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
         <style type="text/css">
-            body{
-                background-color: #fff;
-            }
-            #cabecalho, #rodape{
-                background-color: #fff;
-                width: 800px;
-                height: 100px;
-            }
+            body{background-color: #fff;}
             #cabecalho{
                 background-color: #fff;
-                width: 800px;
-                height: 450px;
+                width:800px;
+                height:100px
             }
             
-        </style>
+            #corpo{
+                background-color: #fff;
+                width:800px;
+                height:450px
+            }
+            
+            #rodape{
+                background-color: #fff;
+                width:800px;
+                height:100px
+            }
+          
+        </style>     
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>Error</title>
     </head>
     <body>
-        <div align="center">
+        <div aling="center">
             <div id="cabecalho"></div>
             <div id="corpo">
                 
-                <img src="img/erro.gif"/>
+                <img src="Imagens/erro1.jpg"/>
                 <hr/>
-                    <h3> Email e Senha Incorretos</h3><br/>
+                <h3>E-mail e senha incorretos!</h3><br/>
                 <br/>
-                <hr/>
-                <a href="login.jsp">Tentar Novamente</a> <a href="index.jsp">Cadastre-se</a>
-                
+                </hr>
+                <a href="login.jsp">Tentar novamente</a> <a href="Index.jsp">Cadastre-se</a>
             </div>
-            <div id="rodape"></div>
+            <div id="rodape"> </div>
         </div>
     </body>
 </html>

@@ -1,20 +1,14 @@
-<%-- 
-    Document   : remover
-    Created on : 08/03/2024, 10:55:09
-    Author     : laboratorio
---%>
-
-<%@page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<%@page contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 TRASITIONAL//EN"" HTTP://WWW.W3.ORG/TR/HTML4/LOOSE.DTD">
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <title>JSP Page</title>
+        <title>---</title>
     </head>
     <body>
         <%
-            session.removeAttribute("email");
-            response.sendRedirect("login.jsp");
+           session.removeAttribute("email");
+           response.sendRedirect("login.jsp");
         %>
     </body>
 </html>

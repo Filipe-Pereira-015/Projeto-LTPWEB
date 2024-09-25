@@ -1,33 +1,27 @@
-<%-- 
-    Document   : cadastrado
-    Created on : 08/03/2024, 10:23:29
-    Author     : laboratorio
---%>
-
-<%@page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<%@page contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 TRASITIONAL//EN"" HTTP://WWW.W3.ORG/TR/HTML4/LOOSE.DTD">
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <title>JSP Page</title>
-        <script language="Javascript">
+        <script language="javascript">
             var timer = 2;
-            function countdown(){
-                if (timer > 0){
-                    timer -= 1;
+            function countdown() {
+                if (timer > 0) {
+                    timer -=1;
                     setTimeout("countdown()", 3000);
+                    
                 } else {
-                    location.href = 'index.jsp#paralogin'
+                    location.href = 'login.jsp';
                 }
             }
             countdown();
-        </script>
+            </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>-----</title>  
     </head>
     <body>
-        <%
-            String email = (String) request.getAttribute("email");
-            out.println("<h4>Email "+ email +" Cadastrado com sucesso</h4>");
-            out.println("Você será redirecionado para a pagina de login");
+        <%        String email = (String) request.getAttribute("email");
+                  out.println("<h4>Email " + email + "cadastrado com sucesso!</h4>");
+                  out.println("Você será redirecionado para a página de login");
         %>
     </body>
 </html>

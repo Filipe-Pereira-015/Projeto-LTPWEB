@@ -3,12 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Jonathan/Documents/NetBeansProjects/Login/web/css/estilo.css</file>
-            <file>file:/C:/Users/Jonathan/Documents/NetBeansProjects/Login/web/index.jsp</file>
-            <file>file:/C:/Users/Jonathan/Documents/NetBeansProjects/Login/web/cadastrado.jsp</file>
-            <file>file:/C:/Users/Jonathan/Documents/NetBeansProjects/Login/web/login.jsp</file>
-            <file>file:/C:/Users/Jonathan/Documents/NetBeansProjects/Login/src/java/LoginControllers.java</file>
-            <file>file:/C:/Users/Jonathan/Documents/NetBeansProjects/Login/src/java/br/com/login/CadastroLoginServlet.java</file>
+            <file>file:/C:/xampp/tomcat/webapps/Login/src/java/LoginControlers.java</file>
         </group>
     </open-files>
 </project-private>

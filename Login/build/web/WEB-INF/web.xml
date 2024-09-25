@@ -5,12 +5,8 @@
 	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	 version="3.1">
     <servlet>
-        <servlet-name>CadastroLoginServlet</servlet-name>
-        <servlet-class>br.com.login.CadastroLoginServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>UpdateLoginServlet</servlet-name>
-        <servlet-class>br.com.login.UpdateLoginServlet</servlet-class>
+        <servlet-name>CdastroLoginServlet</servlet-name>
+        <servlet-class>br.com.login.cadastroLoginServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LoginControllers</servlet-name>
@@ -18,11 +14,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>CadastroLoginServlet</servlet-name>
-        <url-pattern>/CadastroLogin</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>UpdateLoginServlet</servlet-name>
-        <url-pattern>/UpdateLogin</url-pattern>
+        <url-pattern>/CdastroLogin</url-pattern> 
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LoginControllers</servlet-name>
